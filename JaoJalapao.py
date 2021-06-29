@@ -6,7 +6,7 @@ import os
 class JaoJalapao:
 
     def __init__(self):
-        BOT_TOKEN = '1808657758:AAFyAytvYYVb06OzeRY1wSegDh2u1F63jv4' # NÃO SUBIR PARA O GITHUB 
+        BOT_TOKEN = 'INSIRA O SEU TOKEN AQUI' # NÃO SUBIR PARA O GITHUB 
         self.url_base = f'https://api.telegram.org/bot{BOT_TOKEN}/'
 
     def nova_mensagem(self, update_id):
